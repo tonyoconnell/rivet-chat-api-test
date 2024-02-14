@@ -1,0 +1,28 @@
+{
+    "servers": [
+      {
+        "file": "./example.rivet-project",
+        "graphName": "chat-history",
+        "graphInputName": "input",
+        "streamingOutput": {
+          "nodeType": "chat",
+          "nodeName": "Output (Chat)"
+        },
+        "returnGraphOutput": false,
+        "graphOutputName": "output",
+        "port": 3100
+      },
+      {
+        "file": "./example2.rivet-project",
+        "graphName": "other_graph",
+        "graphInputName": "input",
+        "streamingOutput": {
+          "nodeType": "chat",
+          "nodeName": "Output (Chat)"
+        },
+        "returnGraphOutput": false,
+        "graphOutputName": "output",
+        "port": 3101
+      }
+    ]
+  }

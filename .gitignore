@@ -1,0 +1,7 @@
+/.vscode/launch.json
+/node_modules/
+/audio/*
+config.gypi
+/src/archive/
+/dist/archive/
+yarn.lock
